@@ -1,0 +1,40 @@
+.customSearch {
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    margin: 10px;
+}
+
+.imgClass {
+    width: 100%;
+    margin: 10px;
+}
+
+.row {
+    margin: 10px;
+}
+
+.loginClass {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+label {
+    display: flex;
+    justify-self: left;
+}
+
+.loginH1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.submitButton {
+    width: 100px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
