@@ -58,6 +58,10 @@ label {
     margin-right: 30px;
 }
 
+#titleInfoImg:hover {
+    cursor:default;
+}
+
 #titleInfoDescRel {
     font-size: small;
 }
