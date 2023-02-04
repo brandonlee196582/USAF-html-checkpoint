@@ -10,6 +10,10 @@
     margin: 10px;
 }
 
+.imgClass:hover {
+    cursor: pointer;
+}
+
 .row {
     margin: 10px;
 }
@@ -36,5 +40,29 @@ label {
 .submitButton {
     width: 100px;
     background-color: rgb(32, 32, 32);
+    color: rgb(175, 175, 175);
+}
+
+.submitButton:hover {
+    background-color: rgb(32, 32, 32);
     color: white;
+}
+
+/* title info page specific */
+#titleInfoDescH1 {
+    font-weight: bolder;
+    font-size: 450%;
+}
+
+#titleInfoImgDiv {
+    margin-right: 30px;
+}
+
+#titleInfoDescRel {
+    font-size: small;
+}
+
+#titleInfoDesc {
+    margin-top: 10px;
+    font-size: large;
 }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMDB-Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="#">GMDB</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="index.html">Login</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </nav>
+
+        <div class="container">   
+            <div class="row mainRow">
+                <div class="col-sm-4">
+                    <a href="titleInfo.html"><img id="ironMan" class="imgClass" src="https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg" alt="replace" onclick=""></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="titleInfo.html"><img id="captianAmerica" class="imgClass" src="https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_FMjpg_UX1000_.jpg" alt="replace"> </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="titleInfo.html"><img id="thor" class="imgClass" src="https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg" alt="replace"> </a>
+                </div>
+            </div>
+            <div class="row mainRow">
+                <div class="col-sm-4">
+                    <a href="titleInfo.html"><img id="avengers" class="imgClass" src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="replace"> </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="titleInfo.html"><img id="antMan" class="imgClass" src="https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_FMjpg_UX1000_.jpg" alt="replace"> </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="titleInfo.html"><img id="guardians" class="imgClass" src="https://m.media-amazon.com/images/M/MV5BZTkwZjU3MTctMGExMi00YjU5LTgwMDMtOWNkZDRlZjQ4NmZhXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="replace"> </a>
+                </div>
+            </div>
+            <div class="row mainRow">
+                <p id="imgSelected" style="color:white"></p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
